@@ -1,0 +1,12 @@
+server:
+  port: 8776
+spring:
+  application:
+    name: default-eureka-provider
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://192.168.0.135:30115/eureka/
+    fetch-registry: false
+  instance:
+    prefer-ip-address: true

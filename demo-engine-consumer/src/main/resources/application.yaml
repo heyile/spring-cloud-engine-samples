@@ -1,0 +1,12 @@
+server:
+  port: 8778
+spring:
+  application:
+    name: consumer-feign
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://49.4.95.115:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: false
